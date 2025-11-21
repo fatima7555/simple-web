@@ -6,7 +6,7 @@ pipeline {
   }
   stages {
     stage('Checkout') {
-      steps { git url: 'https://github.com/umairmakhdoom29/simple-web.git' }
+      steps { git url: 'https://github.com/fatima1575/simple-web.git' }
     }
     stage('Build') {
       steps {
