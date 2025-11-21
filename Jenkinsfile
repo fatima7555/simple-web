@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    IMAGE = "umairmakhdoom29/simple-web"
+    IMAGE = "fatimaimran1575/simple-web"
     TAG = "1.0-${env.BUILD_NUMBER}"
   }
   stages {
